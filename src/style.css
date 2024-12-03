@@ -28,10 +28,11 @@ body {
 	justify-content: space-between;
 	background-color: var(--nav-color);
 	padding: 5px 5%;
-	position: sticky important;
+	position: fixed;
 	top: 0;
+	left: 0;
+	right: 0;
 	z-index: 100;
-	position: -webkit-sticky;
 }
 #logo {
 	width: 160px;
@@ -101,6 +102,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 13px 5%;
+	margin-top: 70px;
 }
 .left-sidebar {
 	flex-basis: 25%;
@@ -252,6 +254,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px;
+	/* margin-top: 70px; */
 }
 .story {
 	flex-basis: 18%;
