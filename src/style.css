@@ -319,10 +319,10 @@ body {
 /* ------------------MAIN CONTENT - post content */
 .write-post-container {
 	width: 100%;
-	background: #fff;
+	background: var(--bg-color);
 	border-radius: 6px;
 	padding: 20px;
-	color: #626262;
+	color: var(--box-color-font);
 	font-weight: 500;
 }
 .user-profile {
@@ -359,6 +359,7 @@ body {
 	background: transparent;
 	resize: none;
 	font-family: inherit;
+	color: var(--box-color-font);
 }
 .add-post-links {
 	display: flex;
@@ -379,7 +380,7 @@ body {
 
 .post-container {
 	width: 100%;
-	background: #fff;
+	background: var(--bg-color);
 	border-radius: 6px;
 	padding: 20px;
 	color: #626262;
@@ -451,7 +452,7 @@ footer {
 	position: absolute;
 	width: 90%;
 	max-width: 350px;
-	background: #fff;
+	background: var(--bg-color);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 	border-radius: 4px;
 	overflow: hidden;
@@ -465,7 +466,7 @@ footer {
 }
 .user-profile a {
 	font-size: 12px;
-	color: rgb(3, 127, 131);
+	color: var(--box-color-font);
 	text-decoration: none;
 }
 .settings-mennu-inner {
@@ -474,7 +475,7 @@ footer {
 .settings-mennu-inner hr {
 	border: 0;
 	height: 1px;
-	background: #9a9a9a;
+	background: var(--body-color);
 	margin: 15px 0;
 }
 
@@ -494,7 +495,7 @@ footer {
 	align-items: center;
 	justify-content: space-between;
 	font-size: 14px;
-	color: #626262;
+	color: var(--box-color-font);
 	text-decoration: none;
 }
 .settings-links img {
