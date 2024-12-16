@@ -695,3 +695,93 @@ footer {
 	left: 0;
 	color: var(--box-color-font);
 }
+
+/* Media Query for Home page */
+
+@media (max-width: 900px) {
+	.right-sidebar {
+		display: none;
+	}
+	.left-sidebar {
+		display: none;
+	}
+	nav {
+		flex-wrap: wrap;
+	}
+	.search-box {
+		display: none;
+	}
+	#logo {
+		width: 100px;
+		margin-right: 20px;
+	}
+	.nav-left ul li img {
+		width: 20px;
+		margin: 0 8px;
+	}
+	.nav-user-icon img {
+		width: 30px;
+	}
+	.nav-user-icon {
+		margin-left: 0;
+	}
+	.add-post-links {
+		flex-wrap: wrap;
+	}
+	.main-content {
+		flex-basis: 100%;
+	}
+	.story img {
+		width: 30px;
+		border-width: 3px;
+	}
+	.story p {
+		font-size: 12px;
+		bottom: 10px;
+	}
+	.story.story1 img {
+		width: 25px;
+		bottom: unset;
+		top: 5px;
+	}
+
+	.add-post-links a {
+		font-size: 12px;
+		font-size: 9px;
+	}
+	.add-post-links img {
+		width: 15px;
+		margin-right: 5px;
+	}
+	.post-input-container {
+		padding-left: 0;
+	}
+}
+
+/* Mediaquery for Profile page */
+@media (max-width: 900px) {
+	.profile-container {
+		padding: 0px 3%;
+	}
+	.profile-details {
+		flex-wrap: wrap;
+	}
+	.pd-right {
+		text-align: left;
+		margin-top: 10px;
+	}
+	.pd-right button {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	.pd-row div h3 {
+		font-size: 16px;
+	}
+	.profile-info {
+		flex-wrap: wrap;
+	}
+	.info-col,
+	.post-col {
+		flex-basis: 100%;
+	}
+}
