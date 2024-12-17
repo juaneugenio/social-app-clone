@@ -778,8 +778,8 @@ footer {
 
 @media (max-width: 768px) {
 	.profile-container {
-		margin: calc(25vh - 121px) 0;
-		padding: 0 3%;
+		/* margin: calc(25vh - 121px) 0; */
+		padding: 10px 3%;
 	}
 	.profile-details {
 		flex-wrap: wrap;
